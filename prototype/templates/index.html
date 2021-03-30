@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}
+	<title>API Search</title>
+{% endblock %}
+
+{% block content %}
+<head>
+	<title>Search for Area</title>
+  </head>
+  
+  <body>
+	<form action="#" method="post">
+	  <h1>Search for an Area!</h1>
+	  <label for="srchyear">Enter Search Year:</label>
+	  <input type="search" name="srchyear" /><br />
+	  <label for="location">Enter Location:</label>
+	  <input type="search" name="location" /><br />
+	  <label for="radius">Enter radius(miles):</label>
+	  <input type="search" name="radius" /><br />
+	  <input type="submit" />
+	</form>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.625666404144!2d-71.10759314914581!3d42.35050364359581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e379f063e53817%3A0x2b346e00e0a3bec8!2sBoston%20University!5e0!3m2!1sen!2sus!4v1616961839616!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </body>
+{% endblock %}
